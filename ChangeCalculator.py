@@ -3,6 +3,7 @@
 # Function checks whether it is able to provide the exact change from the available coins
 # Returns the string "INSUFFICIENT COINS" if unable
 # Returns "SUFFICIENT COINS" and prints the coin combination if able
+
 from itertools import repeat
 def exactChange(target_change: float, available_coins: list):
     available_coins.sort(key = lambda coin: coin[0], reverse = True)
