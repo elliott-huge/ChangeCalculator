@@ -14,9 +14,5 @@ class TestChangeCalculator(unittest.TestCase):
 
         assert(exactChange(0.50, [[0.15, 0.6]]) == "INSUFFICIENT COINS")
 
-
-    
-
-
 if __name__ == '__main__':
     unittest.main()

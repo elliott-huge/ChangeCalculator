@@ -26,12 +26,6 @@ def exactChange(target_change: float, available_coins: list):
         print(change)
         return "SUFFICIENT COINS"
 
-def _getTotalCash(available_coins: list) -> float:
-    cash = 0
-    for denomination in available_coins:
-        cash += denomination[0] * denomination[1]
-    return cash / 100
-
 
 def _getChangeRecursive(due, available_coins):
     for coin in available_coins:
