@@ -13,3 +13,5 @@ Desired Change: 8
 Available Coins: 5, 4, 4, 1, 1, 1
 
 Returns: 1, 1, 1, 5 (A human would probably give you 4, 4)
+
+This could also be further improved through the use of memoisation.
