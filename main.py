@@ -1,8 +1,8 @@
 import ChangeCalculator
 
 def main():
-    change_required = 1.03
-    available_denominations = [[0.03, 0.9], [0.10, 3], [0.12, 6], [0.02, 0.5], [0.50, 3]]
+    change_required = 0.08
+    available_denominations = [[0.05, 0.05], [0.04, 0.08], [0.01, 0.03]]
     result = ChangeCalculator.exactChange(change_required, available_denominations)
     
 
